@@ -12,7 +12,7 @@ pipeline {
         }
         stage ('Cloning Repo') {
             steps {
-                sh 'git clone https://github.com/vagdevi-b/spring-petclinic-main.git'
+                sh 'git clone https://github.com/vagdevi-b/springboot-petclinic.git'
             }
         }
         stage ('Building and Deploying') {
